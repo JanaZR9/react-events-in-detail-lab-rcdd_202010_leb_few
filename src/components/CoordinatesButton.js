@@ -8,7 +8,7 @@
    }
    
    handleClick = (event) => {
-     const arr = ['evenet.ClientX','event.ClientY'];
+     const arr = [evenet.ClientX,event.ClientY];
      return arr;
      
    }
