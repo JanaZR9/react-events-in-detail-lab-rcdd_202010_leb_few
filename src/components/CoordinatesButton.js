@@ -5,7 +5,7 @@
    
    
    handleClick = (event) => {
-     const arr = [event.ClientX,event.ClientY];
+     let arr = [event.ClientX,event.ClientY];
     this.props.onReceiveCoordinates(arr);
      
    }
