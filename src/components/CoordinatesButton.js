@@ -3,9 +3,6 @@
  
  export default class CoordinatesButton extends Component{
    
-   onReceiveCoordinates = () =>{
-     
-   }
    
    handleClick = (event) => {
      const arr = [evenet.ClientX,event.ClientY];
