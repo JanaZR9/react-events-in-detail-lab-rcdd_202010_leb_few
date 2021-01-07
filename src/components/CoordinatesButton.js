@@ -9,7 +9,7 @@
    
    handleClick = (event) => {
      const arr = [evenet.ClientX,event.ClientY];
-    this.props.onReceiveCoordinates();
+    this.props.onReceiveCoordinates(arr);
      
    }
    render() {
