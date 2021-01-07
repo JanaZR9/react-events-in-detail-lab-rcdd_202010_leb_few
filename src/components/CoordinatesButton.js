@@ -1,7 +1,7 @@
 // Code CoordinatesButton Component Here
 import React, { Component } from "react";
 
-export default class CoordinatesButton extends React.Component{
+export default class CoordinatesButton extends Component{
   
   handleClick=(event)=>{
     let arr=[event.clientX,event.clientY]
@@ -10,7 +10,7 @@ export default class CoordinatesButton extends React.Component{
   }
  render(){
    return(
-     <button onClick={this.handleClick}>Coordinates Button</button>
+     <button onClick={this.handleClick}>Coordinates</button>
      )
  }
   }
