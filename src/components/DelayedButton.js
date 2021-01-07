@@ -3,9 +3,7 @@
  
  export default class DelayedButton extends Component{
 
- onDelayClick() = () => {
-  
-}   
+ 
 
 
 
