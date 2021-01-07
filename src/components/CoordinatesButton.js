@@ -9,6 +9,7 @@
     this.props.onReceiveCoordinates(arr);
      
    }
+   
    render() {
      return (
        <button onClick={this.handleClick}></button>
